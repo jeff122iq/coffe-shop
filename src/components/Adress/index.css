@@ -1,0 +1,39 @@
+.adress {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 59px;
+}
+
+.adress .container {
+    width: 100%;
+    padding: 0 150px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.adress .adressContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.adress .adressContainer .button {
+    background: rgb(136, 72, 0);
+    color: #fff;
+    padding: 18px 54px;    
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.adress .businessContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.adress p {
+    margin: 0;
+    margin-bottom: 15px;
+}

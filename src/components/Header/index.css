@@ -1,0 +1,63 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    box-shadow: 0 0 5px grey;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.header .container {
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(136, 72, 0);
+}
+
+.header .logoContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header .logoContainer .imageContainer {
+    width: 100%;
+    max-width: 75px;
+    margin: 0 50px;
+}
+
+.header .logoContainer .imageContainer img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.header .navigation {
+    width: 100%;
+    max-width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .navigation .navigationItem {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.header .navigation .navigationItem a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header .navigation .navigationItem i {
+    font-size: 17px;
+}
+
+

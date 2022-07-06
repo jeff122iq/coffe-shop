@@ -1,0 +1,42 @@
+.heroSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.heroSection .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.heroSection .imageContainer {
+    width: 100%;
+    max-width: 200px;    
+}
+
+.heroSection .imageContainer img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.heroSection .textContainer {
+    width: fit-content;
+}
+
+.heroSection .textContainer p {
+    margin: 25px 0;
+    font-size: 20px;
+    color: #413b3d;
+}
+
+.heroSection .button {
+    background: rgb(136, 72, 0);
+    color: #fff;
+    padding: 10px 20px;
+    padding: 18px 54px;    
+    cursor: pointer;
+    text-transform: uppercase;
+}

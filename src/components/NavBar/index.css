@@ -1,0 +1,49 @@
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    } 
+
+.navBar {
+    width: 30%;
+    min-height: 100vh;
+    padding: 20px;
+    padding-top: 130px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    color: rgb(136, 72, 0);
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    box-shadow: 0 0 5px grey;
+    font-size: 30px;
+    text-align: center;
+    animation: slideInLeft 0.3s;
+}
