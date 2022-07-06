@@ -5,7 +5,7 @@ export default function Button({ children, link }) {
   return (
     <>
        { 
-        link ? <a className='button' href={link}>{children}</a> :    
+        link ? <a className='button' target="_blank" href={link}>{children}</a> :    
         <div className='button'>
         { children }
       </div>

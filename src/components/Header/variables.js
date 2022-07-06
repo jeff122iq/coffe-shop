@@ -7,6 +7,7 @@ export const headerNavData = [
     {
         id: 1,
         name: 'Get directions',
+        link: '',
         icon: <i class="fa-solid fa-suitcase"></i>
     },
 ]

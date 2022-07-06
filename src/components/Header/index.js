@@ -23,7 +23,7 @@ export default function Header({ handleOpen }) {
                   return (
                   <div className='navigationItem' key={item.id}>
                     {item.icon}
-                    <a href='#'>{item.name}</a>
+                    <a target="_blank" href={item.link && item.link}>{item.name}</a>
                   </div>)
                 })
               }
