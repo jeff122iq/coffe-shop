@@ -13,11 +13,9 @@ export default function Slider() {
                 showArrows={false}
                 showStatus={false}
                 showIndicators={false}
-                showThumbs={false}
                 infiniteLoop
                 autoPlay
                 interval={3000}
-                // width={300}
             >
                 {
                     sliderData.map(slide => {

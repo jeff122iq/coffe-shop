@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     padding: 100px 0 59px;
+    text-align: start;
 }
 
 .adress .container {
@@ -25,6 +26,14 @@
     padding: 18px 54px;    
     cursor: pointer;
     text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.adress .adressContainer .button:hover {
+    background-color: #fff;
+    color: rgb(136, 72, 0);
+    border: 1px solid rgb(136, 72, 0);;
 }
 
 .adress .businessContainer {

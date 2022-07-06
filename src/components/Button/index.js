@@ -1,7 +1,15 @@
 import React from 'react'
+import './index.css'
 
-export default function Button({ children }) {
+export default function Button({ children, link }) {
   return (
-    <div className='button'>{ children }</div>
+    <>
+       { 
+        link ? <a className='button' href={link}>{children}</a> :    
+        <div className='button'>
+        { children }
+      </div>
+      }
+    </>
   )
 }

@@ -13,7 +13,6 @@ export default function Hero() {
             </div>
             <div className='textContainer'>
                 <p>Cafe in Munich</p>
-                <Button>Contact us</Button>
             </div>
         </Container>
     </section>
